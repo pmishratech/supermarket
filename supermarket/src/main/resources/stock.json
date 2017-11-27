@@ -1,0 +1,38 @@
+[
+    {
+	  "itemName": "Bread",
+	  "itemId": 1001,
+	  "itemStock": 100,
+	  "price": 2,
+	  "itemDescription": "Soft Bread",
+	  "discountPrice":3,
+      "minimumQuantityForDiscount":4
+    },
+    {
+	  "itemName": "Apple",
+	  "itemId": 1002,
+	  "itemStock": 100,
+	  "price": 1,
+	  "itemDescription": "Apples are good",
+	  "discountPrice":3,
+      "minimumQuantityForDiscount":4
+    } ,
+    {
+	  "itemName": "Orange",
+	  "itemId": 1003,
+	  "itemStock": 100,
+	  "price": 6,
+	  "itemDescription": "Oranges are good",
+	  "discountPrice":"",
+      "minimumQuantityForDiscount":""
+    },
+    {
+	  "itemName": "Milk",
+	  "itemId": 1004,
+	  "itemStock": 100,
+	  "price": 4,
+	  "itemDescription": "Milk is healthy",
+	  "discountPrice":10,
+      "minimumQuantityForDiscount":3
+    }
+]
