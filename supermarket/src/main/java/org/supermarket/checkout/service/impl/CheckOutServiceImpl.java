@@ -46,6 +46,9 @@ public class CheckOutServiceImpl implements CheckOutService {
 				stock.get(itemId).setItemStock(currentStock - itemQuantity);
 			}
 		}
+		else{
+			LOGGER.debug("Item not found in stock: " + itemId);
+		}
 		return item;
 	}
 
